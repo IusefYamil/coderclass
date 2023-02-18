@@ -1,0 +1,33 @@
+
+.conteiner__logo{
+    height: 70px;
+    width: 80px;
+}
+.img__logo{
+    height: 100%;
+    width: 100%;
+}
+.navbar-toggler{
+    color: aqua;
+}
+
+.nashe{
+    color: bisque;
+}
+.nashe:hover{
+    padding:20px;
+    background-color: rgb(10, 10, 60);
+    color:aqua;
+}
+.section__conteiner__estadisticas{
+    background-color: chartreuse;
+}
+.section__img{
+    height: 150px;
+    width: 189px;
+    border-radius: 5px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
