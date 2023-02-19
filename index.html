@@ -24,65 +24,70 @@
   <body>
     <div class="container-fluid">
       <header class="row">
-        <nav class="navbar navbar-expand-lg text-bg-dark">
-          <div class="container-fluid ">
-            <div class="conteiner__logo col-1">
-              <a class="navbar-brand" href="#"
-                ><img class="img__logo" src="./img/low.png" alt=""
-              /></a>
+        <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+          <div class="container-fluid">
+            <div class="conteiner__logo">
+              <a class="navbar-brand" href="#"><img class="img__logo" src="./img/low.png" alt="Logo Messi"></a>
             </div>
-
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNavAltMarkup"
-              aria-controls="navbarNavAltMarkup"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon">
-                <img
-                  class="img__logo"
-                  src="./img/menu_white.png"
-                  alt="logo de la empresa de messi"
-                />
-              </span>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup col-11">
-              <div class="navbar-nav">
-                <a class="nav-link nashe" aria-current="page" href="#">Home</a>
-                <a class="nav-link nashe" href="./pages/estadisticas.html">Estadisticas</a>
-                <a class="nav-link nashe" href="./pages/iconicos.html">Iconicos</a>
-                <a class="nav-link nashe" href="./pages/novedades.html">Novedades</a>
-                <a class="nav-link nashe" href="./pages/palmares.html">Palmares</a>
-                <a class="nav-link nashe" href="./pages/contacto.html">Contacto</a>
-              </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link efecto" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link efecto" href="#">Estadistica</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link efecto" href="#">Novedad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link efecto" href="#">Iconic</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link efecto" href="#">Palmares</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link efecto" href="#">Contacto</a>
+                </li>
+              </ul>
             </div>
           </div>
         </nav>
       </header>
 
       <main class="row">
-        <div class="col">
-          <section class="row">
-            <div class="section__conteiner__estadisticas">
-              <h2>Messi stats</h2>
-              <div class="section__img">
-                  <img src="./img/b4.jpg" alt="">
-              </div>
-            </div>
 
-          </section>
+        <div class="col -xl-11">
           <section class="row">
-            <div class="section__conteiner__novedades">
-              <h2>Messi stats</h2>
-              <div class="section__img">
-                  <img src="./img/messireproch.jpg" alt="">
-              </div>
-            </div>
-
+              <article class="article--estadistica">
+                <h2 class="article__titulo--estadistica">Messi stats</h2>
+                    <a href=""><img class="article__img" src="./img/b4.jpg" alt="Messi con sus 4 balones de oro"></a> 
+              </article>
           </section>
+
+          <section class="row">     
+              <article class="article--iconic">
+                <h2 class="article__titulo--iconic">Messi iconic</h2>
+                    <a href=""><img class="article__img " src="./img/mred.jpg" alt="Messi con la copa del mundo"></a>
+              </article>
+          </section>
+
+          <section class="row">     
+            <article class="article--novedad">
+              <h2 class="article__titulo--novedad">Messiento Novedad</h2>
+                <a href="./pages/novedades.html"><img class="article__img" src="./img/M.webp" alt="Messi posando con campera"></a>
+            </article>
+        </section>
+        </div>
+
+        <div class="col-xl-1">
+          <aside >
+            <h1>messi</h1>
+          </aside>
         </div>
       </main>
 

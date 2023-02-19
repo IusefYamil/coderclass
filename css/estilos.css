@@ -1,3 +1,6 @@
+.container-fluid{
+    font-family: 'Oswald', sans-serif;
+}
 
 .conteiner__logo{
     height: 70px;
@@ -7,30 +10,72 @@
     height: 100%;
     width: 100%;
 }
-.navbar-toggler{
-    color: aqua;
-}
 
-.nashe{
+
+.efecto{
     color: bisque;
 }
-.nashe:hover{
+.efecto:hover{
     padding:20px;
-    background-color: rgb(10, 10, 60);
-    color:aqua;
+    background-color: rgb(248, 204, 9);
+    color:rgb(0, 0, 0);
 }
-.section__conteiner__estadisticas{
-    background-color: chartreuse;
+
+
+
+.article__img{
+    height: 40vh;
+    width: 20vw;
+    border-radius: 20px;
 }
-.section__img{
-    height: 150px;
-    width: 189px;
-    border-radius: 5px;
+.article__img:hover{
+    height: 200px;
+    width: 270px;
 }
 img{
     height: 100%;
     width: 100%;
 }
-.section__conteiner__novedades{
-    background-color: crimson;
+
+.article--estadistica{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    background-color: rgb(249,186,43) ;     
 }
+.article__titulo--estadistica{
+    color: black;
+}
+.article--iconic{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    background-color:   rgb(236,85,110) ;  
+}
+.article__titulo--iconic{
+       color: aliceblue;
+}
+.article--novedad{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    background-color:rgb(101,168,212);
+}
+.article__titulo--novedad{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
