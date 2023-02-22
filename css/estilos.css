@@ -225,8 +225,9 @@ img{
     border-radius: 10px;
 }
 
-
-
+.palmares__conteiner{
+    background-color:rgb(249,186,43) ;
+}
 /*SCREEN DE PAGINA PRINCIPAL*/
 @media screen and (min-width: 1200px){
     .article__img{
