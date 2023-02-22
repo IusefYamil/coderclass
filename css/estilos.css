@@ -228,6 +228,14 @@ img{
 .palmares__conteiner{
     background-color:rgb(249,186,43) ;
 }
+.contacto__background{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+   background-color:rgb(249,186,43) ;
+}
 /*SCREEN DE PAGINA PRINCIPAL*/
 @media screen and (min-width: 1200px){
     .article__img{
@@ -347,6 +355,13 @@ img{
         height: 70vh;
         
    }
+   .contacto__background{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+   background-color:rgb(249,186,43) ;
+}
 
 }
 

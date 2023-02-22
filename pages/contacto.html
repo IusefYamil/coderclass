@@ -21,113 +21,205 @@
   </head>
   <body>
     <div class="container-fluid">
-      <header class="row">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <div class="conteiner__logo">
-              <a class="navbar-brand" href="../index.html"
-                ><img class="img__logo" src="../img/low.png" alt="Logo Messi"
-              /></a>
+      <header>
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <div class="conteiner__logo">
+                <a class="navbar-brand" href="../index.html"
+                  ><img class="img__logo" src="../img/low.png" alt="Logo Messi"
+                /></a>
+              </div>
+  
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link efecto"
+                      aria-current="page"
+                      href="../index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link efecto" href="./estadisticas.html"
+                      >Estadistica</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link efecto" href="./novedades.html">Novedad</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link efecto" href="./iconicos.html">Iconic</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link efecto" href="./palmares.html">Palmares</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link efecto" href="./contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
             </div>
-
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarNav"
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a
-                    class="nav-link efecto"
-                    aria-current="page"
-                    href="../index.html"
-                    >Home</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link efecto" href="./estadisticas.html"
-                    >Estadistica</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link efecto" href="./novedades.html">Novedad</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link efecto" href="./iconicos.html">Iconic</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link efecto" href="./palmares.html">Palmares</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link efecto" href="./contacto.html">Contacto</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </header>
 
-      <main class="row">
-        <div class="col -xl-11">
-          <section class="row">
-            <article class="article--estadistica">
-              <h2 class="article__titulo--estadistica">Messi stats</h2>
+      <main>
+        <div class="container-fluid contacto__background">
+          <h1>QUEDEMOS EN CONTACTO</h1>
+          <div class="row">
+            <div class="col-12">
+              <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <!--Comienza otro item-->
+                  <div class="carousel-item active" data-bs-interval="3000">
+                    <div class="row">
+                      <div class="col">
+                        <img src="../img/M.webp" alt="" />
+                      </div>
+                      <div class="col">
+                        <img src="../img/m5.webp" alt="" />
+                      </div>
+                    </div>
+    
+                    <div class="carousel-caption d-none d-md-block">
+                      <div class="carousel__fondo--texto">
+                        <h5 class="carousel__h5--oscuro">winter & summer</h5>
+                        <p class="carousel__p--oscuro">
+                          La Moda de Lionel Messi es precisa
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!--Comienza otro item-->
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="../img/msel.png" alt="" />
+                  </div>
+                </div>
+                <!--fin del carousel inner-->
+    
+                <!--Botnes de control de desplazamiento-->
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+    
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carousel"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+    
+              
+            </div><!--fin id carousel-->
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu opinion</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
 
-              <a href=""
-                ><img
-                  class="article__img"
-                  src="./img/b4.jpg"
-                  alt="Messi con sus 4 balones de oro"
-              /></a>
-            </article>
-          </section>
-
-          <section class="row">
-            <article class="article--iconic">
-              <h2 class="article__titulo--iconic">Messi iconic</h2>
-              <a href=""
-                ><img
-                  class="article__img"
-                  src="./img/mred.jpg"
-                  alt="Messi con la copa del mundo"
-              /></a>
-            </article>
-          </section>
-
-          <section class="row">
-            <article class="article--novedad">
-              <h2 class="article__titulo--novedad">Messiento Novedad</h2>
-              <a href="./pages/novedades.html"
-                ><img
-                  class="article__img"
-                  src="./img/M.webp"
-                  alt="Messi posando con campera"
-              /></a>
-            </article>
-          </section>
-        </div>
-
-        <div class="col-xl-1">
-          <aside>
-            <h1>messi</h1>
-          </aside>
         </div>
       </main>
 
-      <footer class="row">
-        <div class="col">
-          <h1>El foot de messi</h1>
+   
+
+       
+      <footer>
+        <div class="row">
+          <div
+          class="footer__conteiner--sitio col-xs-12 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <div class="footer__conteiner--logo">
+            <a href="../index.html"><img src="../img/low.png" alt="" /></a>
+          </div>
         </div>
-        <div class="col">
-          <h1>El foot de messi parte 2</h1>
+
+        <div
+          class="footer__conteiner--sponsor col-xs-12 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <div class="footer__titulo--sponsor">
+            <h2>SPONSORS</h2>
+          </div>
+          <div class="footer__logos--sponsor">
+            <ul class="footer__ul">
+              <li class="footer__ul__li">
+                <a class="ul__li__a--sponsor" href="https://lays.es/">Lays</a>
+              </li>
+              <li>
+                <a class="ul__li__a--sponsor" href="https://www.adidas.com.ar/"
+                  >Adidas</a
+                >
+              </li>
+              <li>
+                <a class="ul__li__a--sponsor" href="https://www.pepsi.com/"
+                  >Pepsi</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+
+        <div
+          class="footer__conteiner--redes col-xs-12 col-lg-4 col-xl-4 col-xxl-4"
+        >
+          <div class="footer__titulo--redes">
+            <h2>REDES</h2>
+          </div>
+
+          <div class="footer__logos--redes container-fluid">
+            <a href="https://www.instagram.com/leomessi/"
+              ><img class="img__logo--redes" src="../img/insta.png" alt=""
+            /></a>
+
+            <a href="https://www.facebook.com/leomessi"
+              ><img
+                class="img__logo--redes"
+                src="../img/facebook-circle-logo-24.png"
+                alt=""
+            /></a>
+
+            <a href="https://www.youtube.com/@LeoMessi"
+              ><img
+                class="img__logo--redes"
+                src="../img/youtube-logo-24.png"
+                alt=""
+            /></a>
+          </div>
+        </div>
+        </div>
+        
       </footer>
     </div>
 
